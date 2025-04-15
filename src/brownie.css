@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'National Park', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#title {
+    font-family: 'Shantell Sans', sans-serif;
+}
+
+img {
+    width: 500px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-group {
+    margin: 50px;
+    width: 500px;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.ingredients {
+    align-self:center;
+    margin-bottom: 20px;
+}
+
+li {
+    margin: 10px;
+}

@@ -13,6 +13,19 @@ body {
     height: 100%;
 }
 
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#home {
+    align-self:first baseline;
+    width: 100px;
+    height: 100%;
+}
+
 #title {
     margin-bottom: 100px;
 }

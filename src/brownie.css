@@ -18,6 +18,12 @@ body {
     font-family: 'Shantell Sans', sans-serif;
 }
 
+#home {
+    align-self: first baseline;
+    margin-left: 20px;
+    margin-top:10px;
+}
+
 img {
     width: 500px;
 }

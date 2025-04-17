@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: "Shantell Sans", sans-serif;
+    font-family:  "National Park", sans-serif;
 }
 
 .container {
@@ -13,13 +13,6 @@ body {
     height: 100%;
 }
 
-.header {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
 #home {
     align-self:first baseline;
     width: 100px;
@@ -27,30 +20,41 @@ body {
 }
 
 #title {
-    margin-bottom: 100px;
+    font-family: "Shantell Sans", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 input {
-    font-family: "Shantell Sans", sans-serif;
+    font-family: "National Park";
+    font-size: 16px;
+    margin: 20px;
     font-weight: 600;
-    padding: 6px;
-    margin: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
     width: 100px;
-    border-radius: 20px;
-    border: 1px dashed black;
     background-color: white;
 }
 
-#recipes {
+input:hover {
+    border: none;
+}
+
+.recipes {
     display: flex;
     width: 700px;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 40px;
 }
 
+img {
+    margin: 20px;
+}
+
 .display-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     display: block;
 }
 
